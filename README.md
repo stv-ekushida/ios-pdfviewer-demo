@@ -11,7 +11,7 @@ UICollectionViewのScrollDirection(Vertical/Horizontal)によって、ページ�
 ```swift:
     private func loadPDF() {
         
-        let url = Bundle.main.url(forResource: "C91-Domain_Driven_Design", withExtension: "pdf")
+        let url = Bundle.main.url(forResource: "apple", withExtension: "pdf")
         let req = URLRequest(url: url!)
         self.webView.loadRequest(req)
     }
